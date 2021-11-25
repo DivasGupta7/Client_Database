@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENT DATABASE</title>
+
+    <!-- css here -->
+    <link rel="stylesheet" href="hncc.css">
+
+</head>
+<body>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+      
+            function drawChart() {
+      
+              var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['COMPETITIVE PROGRAMMING',     21],
+                ['WEB DEVELOPMENT',      32],
+                ['ANDROID DEVELOPMENT',  6],
+                ['DESIGNING', 10],
+                ['MACHINE LEARNING',    7],
+                ['others',   4]
+              ]);
+      
+              var options = {
+                title: 'STATISTICS'
+              };
+      
+              var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      
+              chart.draw(data, options);
+            }
+          </script>
+
+    <div class="heading">
+    <h1>CLIENT DATABASE</h1>
+    </div>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/hncc.html">HOME</a></li>
+                <li>TEAM</li>
+                <li><a href="http://127.0.0.1:5500/contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>PROFILE & RESUME ARCHIVE</h1>
+    <h2>BIT Sindri , Dhanbad</h2>
+          <br>
+          <br>
+</body>
+<div id="piechart"></div>
+</html>
