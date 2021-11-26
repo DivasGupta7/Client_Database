@@ -1,0 +1,22 @@
+{
+  "name": "client_database",
+  "version": "1.0.0",
+  "description": "A website which contains user imformations and they are able to create their own account here!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivasGupta7/Client_Database.git"
+  },
+  "author": "Pankaj,Abhishek,Abhijeet,Divas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivasGupta7/Client_Database/issues"
+  },
+  "homepage": "https://github.com/DivasGupta7/Client_Database#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
