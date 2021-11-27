@@ -33,20 +33,20 @@ h1{
 
 
 #email{
-    margin-left: 2%; 
+    margin-left: 3%;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid rgb(129, 105, 105);
-    border-radius: 4px;
-    padding: 16px 32px;
+    border-radius: 48px;
+    padding: 9px 32px;
 }
 #password{
-    margin-left: 2%; 
+    margin-left: 2%;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid rgb(129, 105, 105);
-    border-radius: 4px;
-    padding: 16px 32px;
+    border-radius: 48px;
+    padding: 9px 32px;
 }
 
 
@@ -64,15 +64,14 @@ form{
 }
 
 #login{
-    border-radius: 10%;
-    font-size: 35px;
+    border-radius: 7%;
+    font-size: 20px;
     background-color: rgb(27, 21, 82);
-    
     color: aliceblue;
-    font-style:arial;
-    margin-top: 2%;
-    margin-bottom: 4%;
-    margin-left: 46%;
+    font-style: arial;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 50%;
 }
 #newaccount{
     background-color: #682a42;
