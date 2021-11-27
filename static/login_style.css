@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbnRhY3QlMjB1c3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    font-weight: bolder;
+    font-style: times;
+    text-align: center;
+}
+
+
+
+.email{
+    font-size: 200%;
+    color: rgb(247, 181, 159) ;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.password{
+    font-size: 200%;
+    color: rgb(247, 181, 159);
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#email{
+    margin-left: 2%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+#password{
+    margin-left: 2%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+
+
+form{
+    border: 10px;
+    border-radius: 2%;
+    border: 2px solid rgb(129, 105, 105);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 150px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #121213 0%, #b4b2b6 100%);
+
+}
+
+#login{
+    border-radius: 10%;
+    font-size: 35px;
+    background-color: rgb(27, 21, 82);
+    
+    color: aliceblue;
+    font-style:arial;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 46%;
+}
+#newaccount{
+    background-color: #682a42;
+    color: rgb(228, 231, 231);
+    border-radius: 8%;
+    font-size: 17px;
+    font-style:arial;
+    margin-left:19%;
+    margin-bottom:4%;
+}
+
+#forgotpassword{
+    background-color: #682a42;
+    color: rgb(228, 231, 231);
+    border-radius: 8%;
+    font-size: 17px;
+    font-style:arial;
+    margin-left:19%;
+    margin-bottom:4%;
+
+}
