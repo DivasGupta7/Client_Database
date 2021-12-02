@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    
+    <link rel="stylesheet" type="text/css"  href="/static/signup_style.css">
+</head>
+<body> 
+    
+   
+    <div class></div>
+    <div class="form"></div>
+    <form action="backend.php">
+        <h1><u>Register Here</u></h1>
+        <div><label for="name" class="name">Name:</label>
+        <input type="text" id="input-name" name="name" style="color:rgb(111, 101, 253); font-size:15pt"></div>
+
+        <div><label for="phone" class="phone">Phone number:</label>
+        <input type="tel" id="input-phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"style="font-size:15pt"></div><br>
+
+        <div><label for="input-email" class="email">Your email:</label>
+        <input type="email"  style="font-size:15pt" id="input-email"></div>
+
+        <div><label for="password" class="password">Password:</label>
+        <input type="password" id="input-password" style="font-size:15pt" name="password" ></div><br>
+
+        <div><label for="Cpassword" class="password">Confirm Password:</label>
+        <input type="password" id="input-Cpassword" style="font-size:15pt" name="password" ></div><br>
+
+
+        <button id="signup">Sign Up</button><br>
+
+        
+      </form>
+    </div>
+</body>
+</html>
