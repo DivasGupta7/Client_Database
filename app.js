@@ -1,11 +1,12 @@
 const express = require("express");
 const path = require("path");
-const http = require('http');
 const app = express();
-const hostname = '127.0.0.1';
+const mongoose = require('mongoose');
+const bodyparser = require('body-parser')
 const port = 80;
 
-// app.use('/static', express.static('static'))
+// for serving static files
+app.use('/static', express.static('static'))
 app.use(express.urlencoded())
 //set the template engine as HTML
 app.set('view engine', 'html');
