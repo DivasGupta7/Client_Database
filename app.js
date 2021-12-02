@@ -53,15 +53,6 @@ app.get("/signup_page.html", (req, res)=>{
 //    res.status(200).render('team.html', params);
 // });
 app.post("/signup_page.html", (req, res)=>{ 
-  // try {
-       
-  //     const email= req.body.email;
-  //     const password = req.body.password;
-
-  //     console.log(`${email} and password is ${password}`)
-  // } catch (error) {
-  //   res.status(400).send("invalid Email")
-  // }
   var myData = new Contact(req.body);
   myData.save().then(()=>{
       res.send("Thanks for contacting us")
