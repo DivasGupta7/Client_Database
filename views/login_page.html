@@ -9,9 +9,10 @@
     <link rel="stylesheet" type="text/css"  href="/static/login_style.css">
 </head>
 <body> 
-    
-    <div>  
-      <form action="backend.php">
+    <div class></div>
+    <div class="form"></div>
+    <form action="/login_page.html" method="POST">
+
         <h1><u>Sign In</u></h1>
         
         <div class="trial"> 
@@ -26,11 +27,11 @@
 
 
         <button id="login">Log In</button><br>
-        <div class="lowbtn">
-          <button id="newaccount">CREATE NEW ACCOUNT</button>
-          <button id="forgotpassword">FORGOT PASSWORD</button>
-        </div>
-       
+    <div class="lowbtn">
+        <button id="newaccount"><a href="/signup_page.html">CREATE NEW ACCOUNT</a></button>
+        <button id="forgotpassword">FORGOT PASSWORD</button>
+    </div>
+
         
       </form>
     </div>
