@@ -1,0 +1,151 @@
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color:#EEEEEE; 
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .heading {
+        color: #4ECCA3;
+    }
+
+    h1 {
+        text-align: center;
+    }
+ 
+    .nav {
+        background-color: rgb(119, 118, 118);
+        border-radius: 25px;
+
+    }
+
+    .nav li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+
+    .nav li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .nav ul {
+        overflow: auto;
+
+    }
+
+    .nav li a:hover {
+        color: black;
+    }
+
+    .hyperlink {
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .hyperlink a {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+        
+    }
+
+    .hyperlink a :hover {
+        color: #4ECCA3 ;
+
+    }
+
+    
+     
+
+    .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        color: rgb(26, 97, 230);
+    }
+ 
+    .fa-linkedin {
+        background: white;
+        color: black;
+    }
+
+    .fa-github {
+        background: white;
+        color: rgb(0, 0, 0);
+    }
+
+    .fa-instagram {
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .page1 {
+        background-color: #393E46 ;
+        width: 70%;
+        float: left;
+    }
+
+    .page2 {
+        margin-left: 70%;
+         padding-left: 1%;
+        background-color: #4ECCA3;
+          
+        
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(85, 84, 84);
+        border-radius: 17px;
+        padding: 20px;
+        margin: 20px;
+        text-decoration-color: black;
+    }
+
+    .container {
+        float: left;
+        width:  90%;
+          
+    }
+
+     
+    .smallcontainer{
+        border: 5px solid rgb(0, 0, 0);
+        padding: 2%; 
+        margin: 5%;
+        
+       
+    }
+    .qwe{
+        display: grid;
+  grid-template-columns: min-content 1fr;
+    }
+     
+    #details{
+        margin-left: 10% ;
+    }
+     
+
+     
+     
+
