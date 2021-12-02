@@ -10,21 +10,27 @@
 </head>
 <body> 
     
-   
-    <div class></div>
-    <div class="form"></div>
-    <form action="backend.php">
+    <div>  
+      <form action="backend.php">
         <h1><u>Sign In</u></h1>
-
-        <label for="email" class="email">Email Id:</label>
-        <input type="text" id="email" name="email" style="font-size:15pt"><br>
+        
+        <div class="trial"> 
+          <label for="email" class="email">Email Id :</label>
+          <input type="text" id="email" name="email" style="font-size:15pt">
+        </div><br>
+        
+        <div class="trial"> 
         <label for="password" class="password">Password:</label>
-        <input type="password" id="password" style="font-size:15pt" name="password" ><br />
+        <input type="password" id="password" style="font-size:15pt" name="password" >
+        </div><br>
 
 
         <button id="login">Log In</button><br>
-        <button id="newaccount">CREATE NEW ACCOUNT</button>
-        <button id="forgotpassword">FORGOT PASSWORD</button>
+        <div class="lowbtn">
+          <button id="newaccount">CREATE NEW ACCOUNT</button>
+          <button id="forgotpassword">FORGOT PASSWORD</button>
+        </div>
+       
         
       </form>
     </div>
