@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const mongoose = require('mongoose');
-// const bodyparser = require('body-parser')
+const bodyparser = require('body-parser')
 const port = 80;
 
 // for connecting mongoose to node js
@@ -48,11 +48,13 @@ app.get("/signup_page.html", (req, res)=>{
   const params = {}
   res.status(200).render('signup_page.html', params);
 });
-// app.get("/team", (req, res)=>{ 
-//    const params = {}
-//    res.status(200).render('team.html', params);
-// });
+app.get("/team.html", (req, res)=>{ 
+   const params = {}
+   res.status(200).render('team.html', params);
+});
+// this function will be used when user will send post request
 app.post("/signup_page.html", (req, res)=>{ 
+  console.log('post req');
   var myData = new Contact(req.body);
   myData.save().then(()=>{
       res.send("Thanks for contacting us")
