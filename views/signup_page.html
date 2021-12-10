@@ -13,22 +13,22 @@
    
     <div class></div>
     <div class="form"></div>
-    <form action="/signup_page.html" method="post">
+    <form action="signup_page" , method="post">
         <h1><u>Register Here</u></h1>
         <div><label for="name" class="name">Name:</label>
-        <input type="text" id="input-name" name="name" style="color:rgb(111, 101, 253); font-size:15pt"></div>
+        <input type="text" id="input-name" name="name" style="color:rgb(111, 101, 253); font-size:15pt" placeholder="Enter your Name.."></div>
 
         <div><label for="phone" class="phone">Phone number:</label>
-        <input type="tel" id="input-phone" name="phone" pattern="[0-9]{10}"style="font-size:15pt"></div><br>
+        <input type="tel" id="input-phone" name="phone" pattern="[0-9]{10}"style="font-size:15pt" placeholder="Contact Number"></div><br>
 
         <div><label for="input-email" class="email">Your email:</label>
-        <input type="email"  style="font-size:15pt" id="input-email"></div>
+        <input type="email"  style="font-size:15pt" id="input-email" name="email" placeholder="E-mail Address"></div>
 
         <div><label for="password" class="password">Password:</label>
-        <input type="password" id="input-password" style="font-size:15pt" name="password" ></div><br>
+        <input type="password" id="input-password" style="font-size:15pt" name="password" placeholder="Password"></div><br>
 
         <div><label for="Cpassword" class="password">Confirm Password:</label>
-        <input type="password" id="input-Cpassword" style="font-size:15pt" name="password" ></div><br>
+        <input type="password" id="input-Cpassword" style="font-size:15pt" name="confirm_password" placeholder="Confirm Password"></div><br>
 
 
         <button id="signup" type="submit">Sign Up</button><br>
