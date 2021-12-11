@@ -75,7 +75,7 @@ app.get("/team", (req, res)=>{
 app.post("/signup_page", (req, res)=>{ 
   var myData = new Contact(req.body);
   myData.save().then(()=>{
-      res.send("Client Database's Data has been saved")
+      res.send("You've successfully registered on Client-Database. Go back to login/signIn.")
   }).catch((err)=>{
       res.status(400).send(err)
   });
