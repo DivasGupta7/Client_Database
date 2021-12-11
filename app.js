@@ -80,6 +80,22 @@ app.post("/signup_page", (req, res)=>{
       res.status(400).send(err)
   });
 });
+app.post("/login_page" , async(req,res)=>{
+  try {
+    const email = req.body.email;
+    const password = req.body.password;
+    // doubt after await
+    const useremail = await Contact.findOne({email:email});
+  // triple equaltoo
+    if(useremail.password === password){
+      res.status(201).render("team.html");
+    }else{
+    res.send("invalid input");
+    }
+  } catch(error) {
+    res.status(400).send("invalid email" + error)
+  }
+})
 app.listen(port, ()=>{
   console.log(`The app started on port ${port}`);
 });
